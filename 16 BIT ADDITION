@@ -1,0 +1,6 @@
+lhld 2001
+xchg
+lhld 2005
+dad d
+shld 2010
+hlt
