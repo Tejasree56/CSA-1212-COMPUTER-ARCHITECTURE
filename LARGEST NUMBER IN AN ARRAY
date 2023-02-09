@@ -1,0 +1,12 @@
+lxi h,2001
+mov b,a
+inx h
+mov a,m
+loop: inx h
+cmp m
+jnc lp
+mov a,m
+lp: dcr b
+jnz loop
+sta 2010
+hlt
